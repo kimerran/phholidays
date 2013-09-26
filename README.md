@@ -1,4 +1,7 @@
 phholidays
 ==========
 
-A simple Windows Phone application to check Philippine holidays
+A simple application to check Philippine holidays
+
+Copyright [2013] [ph holidays]	
+
