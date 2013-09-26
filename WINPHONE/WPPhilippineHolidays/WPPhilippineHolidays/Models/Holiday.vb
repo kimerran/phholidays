@@ -19,6 +19,7 @@ Public Class Holiday
     ' This is used for auto-generation of Id property
     Private Shared MyId As Integer = 0
 
+	' Just added a comment here to test on github
     Public Sub New(ByVal holidayDate As Date,
                      ByVal holidayName As String,
                      ByVal holidayDescription As String,
