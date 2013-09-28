@@ -46,4 +46,9 @@ Partial Public Class Details
 
     End Sub
 	
+    Private Sub ApplicationBarIconButton_Click(sender As Object, e As EventArgs)
+        Dim ns As NavigationService = Application.Current.Resources("NavigationService")
+
+        ns.Navigate(New Uri("/Pages/About.xaml", UriKind.Relative))
+    End Sub
 End Class

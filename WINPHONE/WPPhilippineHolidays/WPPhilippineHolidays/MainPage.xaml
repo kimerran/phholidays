@@ -29,17 +29,21 @@
         <!--Panorama control-->
 
         <phone:Panorama    x:Name="panoMain" 
-                           Title="philippine holidays"
-                           >
-            <phone:Panorama.Background>
+                           Title="philippine holidays" 
+                          
+                            >
+            <!--<phone:Panorama.Background>
                 <ImageBrush ImageSource="/WPPhilippineHolidays;component/Assets/bg.JPG" Opacity="0.3"/>
 
-            </phone:Panorama.Background>
+            </phone:Panorama.Background>-->
         </phone:Panorama>
     </Grid>
 
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar Mode="Minimized" IsVisible="True" IsMenuEnabled="False">
+            <shell:ApplicationBarIconButton IconUri="/Assets/Icons/about.png" Text="About" Click="ApplicationBarIconButton_Click"/>
 
-    </phone:PhoneApplicationPage.ApplicationBar>-->
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>

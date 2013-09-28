@@ -13,10 +13,10 @@
     <Application.Resources>
         
         <DataTemplate x:Key="HolidayItemTemplate">
-            <StackPanel  Margin="0,-6,0,12">
-                <TextBlock    Text="{Binding Name}" TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}"/>
-                <TextBlock Text="{Binding DateInfo,  StringFormat=d}"  TextWrapping="Wrap" Style="{StaticResource PhoneTextSmallStyle}" />
-                <TextBlock Text="{Binding HolidayType.ToString}"  TextWrapping="Wrap" Style="{StaticResource PhoneTextSmallStyle}" />
+            <StackPanel   Margin="10,10,10,10" Background="{StaticResource PhoneAccentBrush}">
+                <TextBlock Foreground="Black"    Text="{Binding Name}" TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}"/>
+                <TextBlock  Foreground="Black"  Text="{Binding DateInfo,  StringFormat=d}"  TextWrapping="Wrap" Style="{StaticResource PhoneTextSmallStyle}" />
+                <TextBlock  Foreground="Black"  Text="{Binding HolidayType.ToString}"  TextWrapping="Wrap" Style="{StaticResource PhoneTextSmallStyle}" />
 
             </StackPanel>
         </DataTemplate>

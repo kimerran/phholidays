@@ -8,12 +8,12 @@ Imports System.Resources
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("WPPhilippineHolidays")> 
+<Assembly: AssemblyTitle("Kimerran.PhHolidays")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyConfiguration("")> 
-<Assembly: AssemblyCompany("Microsoft Corp.")> 
-<Assembly: AssemblyProduct("WPPhilippineHolidays")> 
-<Assembly: AssemblyCopyright("Copyright © Microsoft Corp. 2010")> 
+<Assembly: AssemblyCompany("Kimerran")> 
+<Assembly: AssemblyProduct("Kimerran.PhHolidays")> 
+<Assembly: AssemblyCopyright("Copyright © Kimerran 2013")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: AssemblyCulture("")> 
 

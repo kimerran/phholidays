@@ -133,6 +133,9 @@
     <Compile Include="Models\HolidayListPerMonth.vb" />
     <Compile Include="Models\HolidayMonth.vb" />
     <Compile Include="Models\HolidayType.vb" />
+    <Compile Include="Pages\About.xaml.vb">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Details.xaml.vb">
       <DependentUpon>Details.xaml</DependentUpon>
     </Compile>
@@ -157,6 +160,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Details.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -169,13 +176,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\PanoramaBackground.png" />
     <Content Include="Assets\AlignmentGrid.png" />
-    <Content Include="Assets\ApplicationIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Resource Include="Assets\HolidayImg\xmas.jpg" />
     <Resource Include="Assets\bg.JPG" />
+    <Resource Include="Assets\HolidayImg\newyear.JPG" />
+    <Resource Include="Assets\HolidayImg\edsa.jpg" />
+    <Resource Include="Assets\HolidayImg\allsaints.jpg" />
+    <Resource Include="Assets\HolidayImg\allsouls.jpg" />
+    <Resource Include="Assets\HolidayImg\blacksaturday.jpg" />
+    <Resource Include="Assets\HolidayImg\bonifacio.jpg" />
+    <Resource Include="Assets\HolidayImg\eidl.jpg" />
+    <Resource Include="Assets\HolidayImg\election.jpg" />
+    <Resource Include="Assets\HolidayImg\goodfriday.jpg" />
+    <Resource Include="Assets\HolidayImg\independence.jpg" />
+    <Resource Include="Assets\HolidayImg\kagitingan.JPG" />
+    <Resource Include="Assets\HolidayImg\labor.jpg" />
+    <Resource Include="Assets\HolidayImg\lastday.jpg" />
+    <Resource Include="Assets\HolidayImg\maundy.jpg" />
+    <Resource Include="Assets\HolidayImg\national.jpg" />
+    <Resource Include="Assets\HolidayImg\ninoy.JPG" />
+    <Resource Include="Assets\HolidayImg\nochebuena.jpg" />
+    <Resource Include="Assets\HolidayImg\rizal.jpg" />
+    <Content Include="Assets\Icons\about.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
