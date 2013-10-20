@@ -8,12 +8,12 @@ Imports System.Resources
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("Kimerran.PhHolidays")> 
+<Assembly: AssemblyTitle("WPPhilippineHolidays_7")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyConfiguration("")> 
-<Assembly: AssemblyCompany("Kimerran")> 
-<Assembly: AssemblyProduct("Kimerran.PhHolidays")> 
-<Assembly: AssemblyCopyright("Copyright © Kimerran 2013")> 
+<Assembly: AssemblyCompany("Microsoft Corp.")> 
+<Assembly: AssemblyProduct("WPPhilippineHolidays_7")> 
+<Assembly: AssemblyCopyright("Copyright © Microsoft Corp. 2010")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: AssemblyCulture("")> 
 
@@ -23,7 +23,7 @@ Imports System.Resources
 <assembly: ComVisible(false)>
 
 ' The following GUID is for the ID of the typelib if this project is exposed to COM
-<assembly: Guid("fe32ba3d-23b9-4c70-afe8-b7de8b085074")>
+<assembly: Guid("1b9c29f7-a7e9-4ccc-8948-350e60329bec")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -34,6 +34,6 @@ Imports System.Resources
 '
 ' You can specify all the values or you can default the Revision and Build Numbers 
 ' by using the '*' as shown below:
-<Assembly: AssemblyVersion("1.1.0")> 
-<Assembly: AssemblyFileVersion("1.1.0")> 
+<assembly: AssemblyVersion("1.0.0.0")>
+<assembly: AssemblyFileVersion("1.0.0.0")>
 <assembly: NeutralResourcesLanguageAttribute("en-US")>

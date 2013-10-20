@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{491dfc87-8e2f-4fd6-8dcf-c1bcb175290d}" Title="Philippine Holidays" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="Kimerran" Description="Philippine Holidays" Publisher="Kimerran">
+    <IconPath IsRelative="true" IsResource="false">Assets\Icons\iconic.png</IconPath>
+    <Capabilities>
+
+    </Capabilities>
+    <Tasks>
+      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="WPPhilippineHolidays_7Token" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Icons\medium.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>PH Holidays</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
