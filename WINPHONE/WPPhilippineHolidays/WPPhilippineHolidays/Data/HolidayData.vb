@@ -4,7 +4,6 @@ Public Class HolidayData
 
     Public Property Holidays As ObservableCollection(Of Holiday)
 
-    
     Public Sub New()
 
         Holidays = New ObservableCollection(Of Holiday)
