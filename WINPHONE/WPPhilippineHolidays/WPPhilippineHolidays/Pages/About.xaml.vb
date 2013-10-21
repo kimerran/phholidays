@@ -3,7 +3,9 @@ Partial Public Class About
     Inherits PhoneApplicationPage
 
     Public Sub New()
+
         InitializeComponent()
+
     End Sub
 
     Private Sub btnVisitWebsite_Click(sender As Object, e As RoutedEventArgs) Handles btnVisitWebsite.Click
